@@ -19,3 +19,10 @@ $ lldb
 ```
 (lldb) image dump sections libdiaul.so 
 ```
+
+### Setting breakpoints
+
+Breakpoint on function name
+```
+(lldb) breakpoint set --name Diaul_func
+```
